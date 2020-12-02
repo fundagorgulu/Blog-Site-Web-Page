@@ -1,0 +1,228 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.header {
+    background-color: #163174;
+    color: #fff;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .name-surname {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.header nav {
+    width: 50vw;
+}
+
+.header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: #fff;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-info img {
+    max-width: 25vw;
+    max-height: 50vh;
+    border-radius: 50%;
+}
+
+.profile-info h3 {
+    font-style: italic;
+    margin: 10px;
+    font-size: 1em;
+    color: #576262;
+}
+
+.profile-info .go-courses {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+    background-color: #FBBD10;
+    border: none;
+}
+
+.profile-info .go-courses:hover {
+    background-color: #163174;
+    color: #fff;
+}
+
+.courses-menu {
+    background-color: #163174;
+    width: 100vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center-h {
+    text-align: center;
+}
+
+.courses-menu .course-options {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.courses-menu .course-options .option {
+    margin: 10px;
+}
+
+.courses {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.courses .course-list {
+    margin-top: 20px;
+}
+
+.courses .course-list .course {
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.courses .course-list .course img {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 5px;
+}
+
+.courses .course-list .course .content {
+    padding-left: 10px;
+    align-items: center;
+    color: #7A8686;
+}
+
+.courses .course-list .course .content h3 {
+    margin: 2px;
+}
+
+.courses .course-list .course .content .main-h {
+    color: #000;
+}
+
+.courses .course-list .course .content .rating {
+    display: flex;
+}
+
+.courses .course-list .course .content .rating .point {
+    padding-right: 5px;
+    margin-right: 5px;
+    border-right: 1px solid;
+}
+
+.footer {
+    width: 100vw;
+    padding: 50px;
+    background-color: #163174;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.footer .form {
+    padding-top: 20px;
+    width: 50vw;
+}
+
+.footer .form textarea {
+    resize: none;
+}
+
+.footer .form label {
+    font-size: 1em;
+}
+
+.footer .form button {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.footer .form button:hover {
+    background-color: #FBBD10;
+}
+
+.input-p {
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social-media {
+    margin-top: 10px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media .fa {
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.social-media .fa:hover {
+    opacity: 0.7;
+}
+
+.social-media .fa-facebook {
+    padding: 5px;
+    background: white;
+    color: #163174;
+}
+
+.social-media .fa-twitter {
+    color: #fff;
+}
+
+.social-media .fa-instagram {
+    color: #fff;
+}
+
+@media screen and (max-width: 44em) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
